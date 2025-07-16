@@ -1951,7 +1951,8 @@ namespace Microsoft.Maui.Controls.Handlers.Compatibility
 								value.Width = (value.X - xSpace) + value.Width;
 								value.X = xSpace;
 							}
-						};
+						}
+						;
 
 						value.Height = ToolbarHeight;
 					}
